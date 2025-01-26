@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, select, textarea{
+    background-color: transparent;
+}
+
+@media (max-width : 450px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 451px) and (max-width : 650px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 651px) and (max-width : 1000px) {
+    html{
+        font-size: 14px;
+    }
+}
